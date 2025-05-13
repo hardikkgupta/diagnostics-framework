@@ -1,0 +1,46 @@
+# Build directories
+build/
+cmake-build-*/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Docker
+.docker/
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+*.gcno
+*.gcda
+*.gcov
+
+# Environment files
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db 

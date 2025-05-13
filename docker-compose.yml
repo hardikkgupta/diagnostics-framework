@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  dev:
+    build: .
+    volumes:
+      - .:/app
+      - /dev:/dev  # Mount device files for hardware access
+    privileged: true  # Required for hardware access
+    environment:
+      - DISPLAY=${DISPLAY}  # For GUI applications if needed
+    network_mode: host  # For direct hardware access
+    command: /bin/bash 
