@@ -1,4 +1,4 @@
-# 🛠️ Linux-Based Diagnostics Test Framework
+# Linux-Based Diagnostics Test Framework
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
@@ -7,21 +7,21 @@
 
 A comprehensive test suite for validating low-level interfaces on ARM-based devices, supporting I²C, SPI, PCIe, and MDIO protocols.
 
-## ✨ Features
+## Features
 
-- 🎯 **95% Test Coverage** - Automated self-test coverage for low-level interfaces
-- 📊 **Real-time Logging** - Pass/fail logging with intelligent retry logic
-- 🔄 **CI/CD Integration** - Seamless integration with GitLab CI/GitHub Actions
-- 🔧 **Hardware Support** - Support for multiple hardware revisions
-- 📈 **Comprehensive Reporting** - Detailed test reporting and logging
+- **95% Test Coverage** - Automated self-test coverage for low-level interfaces
+- **Real-time Logging** - Pass/fail logging with intelligent retry logic
+- **CI/CD Integration** - Seamless integration with GitLab CI/GitHub Actions
+- **Hardware Support** - Support for multiple hardware revisions
+- **Comprehensive Reporting** - Detailed test reporting and logging
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
-- 🐳 Docker
-- 🐳 Docker Compose
-- 📦 Git
+- Docker
+- Docker Compose
+- Git
 
 ### Setting Up the Development Environment
 
@@ -37,16 +37,16 @@ A comprehensive test suite for validating low-level interfaces on ARM-based devi
    ```
 
 This will:
-- 🏗️ Build the Docker development environment
-- 🚀 Start the container
-- 🐚 Provide you with a shell inside the container
+- Build the Docker development environment
+- Start the container
+- Provide you with a shell inside the container
 
 To stop the development environment:
 ```bash
 docker-compose down
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -64,7 +64,7 @@ docker-compose down
 └── ci/                  # CI/CD configuration files
 ```
 
-## 🛠️ Building
+## Building
 
 Inside the development container:
 ```bash
@@ -74,13 +74,40 @@ cmake ..
 make
 ```
 
-## 🧪 Running Tests
+## Running Tests
 
 Inside the development container:
 ```bash
 ./scripts/run_tests.sh
 ```
 
-## 📄 License
+## Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Commit Guidelines
+
+- Use clear and descriptive commit messages
+- Reference issues and pull requests in commit messages
+- Follow the existing code style
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you encounter any issues or have questions, please:
+- Open an issue
+- Join our community chat
+- Contact the maintainers
+
+---
+
+Made with ❤️ by the Diagnostics Framework Team
